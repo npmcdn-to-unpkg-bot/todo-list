@@ -1,0 +1,6 @@
+<add [addItem]="addTodo"></add>
+<div id="list">
+    <table id="item" *ngFor="#t of todos">
+        <todo [todo]="t" ></todo>
+    </table>
+</div>

@@ -1,0 +1,4 @@
+<tr class="todo-item">
+    <td class="todo-cb" ><input type="checkbox" [(ngModel)]="todo.done"/></td>
+    <td class="todo-text done progress" [class.done]="todo.done" [class.progress]="!todo.done">{{todo.text}}</td>
+</tr>

@@ -1,0 +1,19 @@
+.done {
+    text-decoration:line-through;
+}
+
+.progress {
+
+}
+
+#item {
+
+}
+
+.todo-text {
+    float: left;
+}
+
+.todo-cb {
+    float: left;
+}
